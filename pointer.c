@@ -4,7 +4,8 @@ and is diffrerent from that pointer's address,to do something like change the 'v
 Important:pointer's use in child function can show its value!
   
 "&variable" is an operation to get the variable's address.
-"*pointer" is an operation to get  the variable's value of this pointer's value.Obiviously,only pointer can use * to calculate.
+"*pointer" is an operation to get  the variable's value of this pointer's value.'*p' itself means value of certain address.
+Only pointer can use * to calculate.
   
 So,if we define 'int a = 1' and 'int *p':
 (PS:1.p actually is a variable because it save a value(another variable's address),and *p is a calculation rather than a pointer.
