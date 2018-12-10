@@ -35,3 +35,5 @@ So,if we define 'int a = 1' and 'int *p':
     *++p  \\is *(++p),means p's pointing--group[0] first change to group[1] ,then get group[1]'s value.
                                                                                                                     
     ++*p  \\is ++(*p),means first get group[0],then group[0]'s value+1.
+    
+    p+n vs. p++   \\p++ is p move to next number;p+n is p don't move.                                                                                                                 
